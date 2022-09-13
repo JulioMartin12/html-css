@@ -1,0 +1,54 @@
+/*  Estilos de colores */
+
+/*  Estilos para colores */
+.colores{
+    color:orangered;
+}
+
+.color-hexadecimal{
+    color: #BCE784;
+}
+
+.color-rgb{
+    color: rgb(53, 71, 226);
+}
+
+.color-rgba{
+    color:rgba(10, 10, 10, .85);
+}
+
+.fondo{
+   /*  background-color: cornflowerblue; */
+   background-image: url("https://www.coreldraw.com/static/cdgs/images/pages/seo/tips/photo/basics/blur-background/blur-background.jpg");
+background-position: center center;
+
+}
+
+.fondo-interno{
+    background-image: url("./fondo.jpg");
+    background-position: left bottom;
+    color:wheat;
+}
+
+/*  Tamaños */
+
+.ancho{
+    background-color: #BCE784;
+    width: 100px;
+}
+
+.alto{
+  background-color: aquamarine;
+  height: 200px;    
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /* border-top: none; */
+    padding: 10px 20px;
+    /* padding: 10px 20px 40px; */
+    margin: 10px 20px;
+    /* margin: 10px 20px 30px 40px; */
+}
