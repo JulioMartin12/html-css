@@ -1,0 +1,24 @@
+
+*{
+margin: 0px;
+padding: 0px;;
+}
+.contenedor{
+    width: 100vw;
+    
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-content: space-around;
+    object-fit: cover;
+    
+}
+
+
+
+img {
+    width: 300px;
+    margin: 5px;
+}
+
+ 
