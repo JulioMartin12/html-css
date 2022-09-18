@@ -1,0 +1,21 @@
+
+/* .p-contenedor{
+    color: green;
+} */
+
+ section.main .contenedor p {
+    color: green;
+}
+
+.main .contenedor p:nth-child(2){
+    color:blue ;
+
+}
+
+.contenedor #boton-contenedor{
+    background-color: yellow;
+}
+
+p {
+    color: red;
+}
