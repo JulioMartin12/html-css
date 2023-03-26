@@ -1,0 +1,42 @@
+.padre{
+    width:400px ;
+    height: 400px;
+    background-color: blue;
+
+}
+
+.hijo{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+}
+
+.padre:hover .hijo{
+    animation: trasladacion 1s ease-in-out forwards infinite;
+}
+
+@keyframes trasladacion {
+
+    0%{   transform:  translateX(100%);
+        
+    }
+
+    25%{
+        transform:  translateX(100%) translateY(100%);
+     
+      
+    }
+
+    
+    
+    75%{
+        transform:  translateX(0%)  translateY(100%);
+    }
+   
+    100%{
+        transform:  translateX(0%)
+         translateY(0%);
+    }
+
+    
+}
