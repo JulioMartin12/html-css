@@ -1,0 +1,12 @@
+:root{
+    --color-principal:red;
+    --ancho-principal:250px;
+}
+
+.titulo{
+    color:lightblue;
+}
+
+.footer {
+    color:pink
+}
